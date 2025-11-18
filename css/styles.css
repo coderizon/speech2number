@@ -1,0 +1,78 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+h1 {
+    color: #1c1e21;
+    text-align: center;
+}
+
+.control-section {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#connectButton {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#connectButton:hover {
+    background-color: #218838;
+}
+
+#connectButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#btStatus {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#outputContainer {
+    margin-top: 10px;
+    text-align: center;
+    min-height: 50px;
+}
+
+#outputText {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #555;
+    padding: 15px 25px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    min-width: 250px;
+    display: inline-block;
+}
+
+#visualIndicator {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #e9ecef;
+    border: 2px solid #ced4da;
+    border-radius: 50%;
+    transition: background-color 0.4s, transform 0.4s;
+}

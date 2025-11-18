@@ -1,3 +1,6 @@
+// Dieses Sketch wurde vorübergehend deaktiviert. Entferne die folgenden Direktiven,
+// um es wieder zu aktivieren.
+#if 0
 /*
  * Mechanische 7-Segment-Anzeige über BLE (Bluetooth Low Energy)
  * Hardware: Arduino Uno R4 WiFi + 7 Servos
@@ -165,3 +168,4 @@ void alleSegmenteDeaktivieren() {
   segmentD.write(POSITION_AUF); segmentE.write(POSITION_AUF); segmentF.write(POSITION_AUF);
   segmentG.write(POSITION_AUF);
 }
+#endif
